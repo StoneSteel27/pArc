@@ -1,5 +1,5 @@
 from abc import ABC, abstractmethod
-from src.pArc.utils import synchronized, disposable
+from pArc.utils import synchronized, disposable
 
 
 class Application(ABC, disposable.Disposable):
