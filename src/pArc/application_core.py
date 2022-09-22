@@ -1,5 +1,5 @@
 from abc import abstractmethod
-from src.pArc.application_listener import ApplicationListener
+from pArc.application_listener import ApplicationListener
 
 
 class ApplicationCore(ApplicationListener):
