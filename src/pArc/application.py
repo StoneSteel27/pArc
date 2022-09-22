@@ -1,8 +1,9 @@
 from abc import ABC, abstractmethod
-from pArc.utils import synchronized, disposable
+from pArc.utils.synchronized import synchronized
+from pArc.utils.disposable import Disposable
 
 
-class Application(ABC, disposable.Disposable):
+class Application(ABC, Disposable):
     @abstractmethod
     def getListeners(self):
         pass
